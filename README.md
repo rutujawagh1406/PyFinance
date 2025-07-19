@@ -1,17 +1,25 @@
-# PyFinance: Personal Budget & Expense Tracker 💰
+# PyFinance 📊
 
-This is a simple yet powerful personal finance dashboard built with **Python** and **Streamlit**. It helps you analyze your income, expenses, and savings visually.
+A Python Jupyter Notebook to fetch and analyze financial data using `yfinance`. Designed to plot historical trends, returns, and volatility of selected stocks.
 
-### 🔧 Features:
-- Upload your own expense CSV file
-- See total income, expenses, net savings
-- Interactive pie chart by category
-- Clean UI and mobile-friendly
+## 🔍 Features
+- Download historical stock data
+- Plot closing prices and returns
+- Analyze basic market trends
+- Designed for beginner financial analysts and Python learners
 
+## 💡 Tech Stack
+- Python
+- yfinance
+- matplotlib
+- pandas
 
-### 🚀 Run Locally:
+## 📦 Requirements
 ```bash
-git clone https://github.com/YOURUSERNAME/pyfinance.git
-cd pyfinance
-pip install -r requirements.txt
-streamlit run app.py
+pip install yfinance pandas matplotlib
+🛠 How to Use
+Open pyfinance.ipynb in Jupyter Notebook
+
+Replace ticker symbol with your choice (e.g., 'AAPL', 'TSLA')
+
+Run all cells
