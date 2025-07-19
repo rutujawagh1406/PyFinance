@@ -1,25 +1,42 @@
-# PyFinance 📊
+# PyFinance Dashboard 💰📊
 
-A Python Jupyter Notebook to fetch and analyze financial data using `yfinance`. Designed to plot historical trends, returns, and volatility of selected stocks.
+An interactive **Streamlit-based personal budget tracker** that helps users visualize their income, expenses, and savings using CSV data.
 
-## 🔍 Features
-- Download historical stock data
-- Plot closing prices and returns
-- Analyze basic market trends
-- Designed for beginner financial analysts and Python learners
+## 🌟 Features
+- 📁 Upload your own `.csv` budget data (or use the sample)
+- 📊 Visual breakdown of expenses by category
+- 💰 Key metrics: Total Income, Total Expenses, and Net Savings
+- 📈 Dynamic charts built with Plotly
+- 🧠 Modular design with custom utility functions
 
-## 💡 Tech Stack
+## 🛠️ Tech Stack
 - Python
-- yfinance
-- matplotlib
-- pandas
+- Streamlit
+- Pandas
+- Plotly
+- Custom utility module (`budget_utils.py`)
 
-## 📦 Requirements
+## 📁 Project Structure
+PyFinance/
+├── app.py # Streamlit frontend
+├── budget_utils.py # Helper functions for data analysis
+├── data/
+│ └── sample_data.csv # Sample input
+├── requirements.txt
+└── README.md
+
+perl
+Copy
+Edit
+
+## 🚀 How to Run
+Install dependencies:
+
 ```bash
-pip install yfinance pandas matplotlib
-🛠 How to Use
-Open pyfinance.ipynb in Jupyter Notebook
+pip install -r requirements.txt
+Run the app:
 
-Replace ticker symbol with your choice (e.g., 'AAPL', 'TSLA')
-
-Run all cells
+bash
+Copy
+Edit
+streamlit run app.py
